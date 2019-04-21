@@ -14,7 +14,7 @@
 	});
 
 $(document).ready(function() {
-			// Show or hide the sticky footer button
+
 			$(window).scroll(function() {
 				if ($(this).scrollTop() > 200) {
 					$('.go-top').fadeIn(200);
@@ -23,7 +23,6 @@ $(document).ready(function() {
 				}
 			});
 			
-			// Animate the scroll to top
 			$('.go-top').click(function(event) {
 				event.preventDefault();
 				
